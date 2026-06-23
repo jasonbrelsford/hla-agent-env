@@ -1,0 +1,18 @@
+# Kiro steering docs (contain sensitive infrastructure context)
+.kiro/
+
+# Generated task/run artifacts
+runs/tasks/
+runs/responses/
+runs/scores.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
